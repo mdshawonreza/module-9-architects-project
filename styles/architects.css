@@ -113,6 +113,67 @@ font-weight: 400;
 line-height: 1.50rem;
 padding: 28px 0px;
 }
+
+/* section 2 styles */
+.section-2-container{
+    display: flex;
+    margin: 80px 0px 20px;
+    gap: 90px;
+}
+.s-2-info-title{
+    color:  #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.s-2-information{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    line-height: 24px;
+}
+.s-2-description{
+    padding: 27px;
+    border-radius: 8px;
+    box-shadow:10px 10px 15px #b1aeae;
+    margin-top: 25px;
+    
+}
+.s-2-description h3{
+    color:  #131313;
+font-size: 20px;
+font-weight: 600;
+}
+.s-2-description .s-2-p{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0px;
+    line-height: 24px;
+}
+
+.s-2-btn{
+    background-color: #FF900E;
+    color: #FFF;
+    padding: 45px 43px;
+    width: 110px;
+    position: relative;
+    margin-top: -65px;
+    margin-left: -65px;
+    border-radius: 7px;
+    text-align: center;
+    
+}
+ .btn-10{
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+.btn-experience{
+font-size: 18px;
+padding-top: 10px;
+}
 /* section 3 styles */
 .section-3-container{
     margin-top: 90px;
@@ -187,6 +248,22 @@ line-height: 1.50rem;
 max-width: 500px;
 }
 
+/* footer styles */
+.footer-container{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: auto;
+    padding: 50px 300px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.footer-container p{
+    color:  #424242;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+}
 
 @media screen and (max-width:576px) {
     nav , .section-1-container{
@@ -215,7 +292,14 @@ max-width: 500px;
     .section-3-container{
         margin: 0px 40px;
     }
-    
+    .section-4-img{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-container{
+        margin: 20px;
+        padding: 20px 0px;
+    }
 
 
 }
@@ -239,6 +323,10 @@ max-width: 500px;
    }
    .section-3-cards{
     margin: 0px 10px;
+   }
+   .footer-container{
+    padding: 20px 0px;
+    margin:40px auto;
    }
 
 }
