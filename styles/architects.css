@@ -132,6 +132,7 @@ font-weight: 400;
     margin-bottom: 80px;
     max-width: 500px;
     line-height: 1.50rem;
+    color:#727272;
 }
 
 .section-3-cards{
@@ -159,6 +160,31 @@ font-weight: 400;
    font-weight: 600;
    margin-top: 25px;
    margin-bottom: 18px;
+}
+/* section 4 styles */
+.section-4-info{
+    text-align: center;
+    margin-top: 80px;
+}
+.section-4-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.s-4-title{
+    color:  #131313;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.s-4-description{
+    color:#727272;
+font-size: 16px;
+font-weight: 400;
+margin:auto;
+line-height: 1.50rem;
+max-width: 500px;
 }
 
 
