@@ -140,6 +140,7 @@ padding: 28px 0px;
     margin-top: 25px;
     
 }
+
 .s-2-description h3{
     color:  #131313;
 font-size: 20px;
@@ -300,6 +301,19 @@ font-weight: 400;
         margin: 20px;
         padding: 20px 0px;
     }
+    .section-2-container{
+        flex-direction: column;
+     
+    }
+    .s-2-img{
+        max-width: 380px;
+        margin:20px  auto 20px 20px;
+    }
+    .s-2-btn{
+
+        margin-top: -100px;
+        margin-left: 20px;
+    }
 
 
 }
@@ -327,6 +341,19 @@ font-weight: 400;
    .footer-container{
     padding: 20px 0px;
     margin:40px auto;
+   }
+   .section-2-container{
+    flex-direction: column;
+   }
+   .section-2-container-info{
+    margin:0px 50px ;
+   }
+   .s-2-img{
+    margin-left: 105px;
+   }
+   .s-2-btn{
+    margin-top: -80px;
+    margin-left: 40px;
    }
 
 }
